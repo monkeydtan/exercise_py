@@ -5,6 +5,8 @@
 
 # print(greet("Tan"))
 
+############### Dog ###############
+
 class Dog:
     def __init__(self,name,age):
         self.name = name
@@ -57,3 +59,7 @@ dog1.bark()  # แสดงผล เห่าครั้งที่ 2
 dog1.play()
 dog1.play()
 dog1.check_status()
+
+dog2 = Dog("แสนดี",10)
+dog2.bark()
+dog2.check_status()
